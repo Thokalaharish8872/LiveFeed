@@ -15,7 +15,7 @@ An Android app that plays RTSP streams using VLC (LibVLC), supports Picture-in-P
 - Android Studio
 
 ## Screenshots
-_Add some screenshots of your app here_
+[PiP Mode] (https://github.com/Thokalaharish8872/LiveFeed/blob/master/PiP_Mode.png)
 
 ## How to Use
 1. Clone the repo
