@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#0E1B2B"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:background="#1A2A3F"
+
+        android:hint="Enter URL"
+        android:textColorHint="@color/white">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <TextView
+        android:id="@+id/deviceNameHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textInputLayout"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="41dp"
+
+        android:fontFamily="@font/adlam_display"
+        android:text="Device Name  : "
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13sdp" />
+
+    <TextView
+        android:id="@+id/deviceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textInputLayout"
+        android:layout_marginStart="@dimen/_10sdp"
+
+        android:layout_marginTop="41dp"
+        android:layout_toEndOf="@+id/deviceNameHeading"
+        android:fontFamily="@font/adlam_display"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13sdp" />
+
+    <TextView
+        android:id="@+id/IpAdressHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deviceNameHeading"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:fontFamily="@font/adlam_display"
+        android:text="Ip Address       : "
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13sdp" />
+
+    <TextView
+        android:id="@+id/IpAdress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deviceName"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_toEndOf="@+id/IpAdressHeading"
+        android:fontFamily="@font/adlam_display"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13sdp" />
+    <TextView
+        android:id="@+id/connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/IpAdressHeading"
+        android:layout_alignStart="@+id/IpAdressHeading"
+        android:layout_marginTop="@dimen/_15sdp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/connect"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:text="Verify URL" />
+
+
+
+</RelativeLayout>
