@@ -16,7 +16,9 @@ An Android app that plays RTSP streams using VLC (LibVLC), supports Picture-in-P
 
 ## Screenshots
 [Verify URL Page] (https://github.com/Thokalaharish8872/LiveFeed/blob/master/VerifyURLPage.png)
+
 [Live Stream View] (https://github.com/Thokalaharish8872/LiveFeed/blob/master/LiveStreamViewpng)
+
 [PiP Mode] (https://github.com/Thokalaharish8872/LiveFeed/blob/master/PiP_Mode.png)
 
 ## How to Use
