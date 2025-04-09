@@ -23,6 +23,3 @@ An Android app that plays RTSP streams using VLC (LibVLC), supports Picture-in-P
 1. Clone the repo
 2. Open in Android Studio
 3. Run on a real device (needs permissions and RTSP stream)
-
-## License
-MIT License (or your choice)
